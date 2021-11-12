@@ -1,0 +1,44 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+body{
+    height: 100vh;
+    background-color: #483D8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player {
+    background-color: DarkSlateBlue	;
+    width: 90%;
+    max-width: 375px;
+    box-shadow: 10px 10px 210px 0px chocolate;
+
+}
+
+.card{
+    box-shadow: none;
+    margin: 0;
+}
+
+h4{
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.card-image{
+    background: url("https://placehold.it/500") no-repeat center center / cover;
+    height: 200px;
+}
+
+audio{
+    width: 100%;
+    margin-top: 30px;
+}
